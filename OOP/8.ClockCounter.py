@@ -37,6 +37,12 @@ class Counter:
             self.value = 0
         elif self.value < self.limit:
             return False
+        '''
+        if self.value == self.limit:
+            self.value = 0
+            return True
+        return False
+        '''
 
 
     def __str__(self):
