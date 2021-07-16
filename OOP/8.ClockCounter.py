@@ -32,6 +32,7 @@ class Counter:
         # 코드를 쓰세요
         self.value += 1
         
+        #self.value = new_value if 0 <= new_value < self.limit else 0
         if self.value == self.limit:
             self.value = 0
         elif self.value < self.limit:
