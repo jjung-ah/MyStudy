@@ -18,6 +18,7 @@ class Counter:
         아닐 경우 value에 0을 설정한다.
         """
         # 코드를 쓰세요
+        #self.value = new_value if 0 <= new_value < self.limit else 0
         if self.value >= 0 and self.value < self.limit:
             self.value = new_value
         else:
@@ -32,7 +33,6 @@ class Counter:
         # 코드를 쓰세요
         self.value += 1
         
-        #self.value = new_value if 0 <= new_value < self.limit else 0
         if self.value == self.limit:
             self.value = 0
         elif self.value < self.limit:
