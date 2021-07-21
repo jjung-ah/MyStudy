@@ -127,3 +127,50 @@ print("5초가 흘렀습니다")
 for i in range(5):
     clock.tick()
 print(clock)
+
+
+'''
+#####모범 답안#####
+class Clock:
+    """
+    시계 클래스
+    """
+    HOURS = 24 # 시 최댓값
+    MINUTES = 60 # 분 최댓값
+    SECONDS = 60 # 초 최댓값
+
+    def __init__(self, hour, minute, second):
+        """
+        각각 시, 분, 초를 나타내는 카운터 인스턴스 3개(hour, minute, second)를 정의한다.
+        현재 시간을 파라미터 hour시, minute분, second초로 지정한다.
+        """
+        self.hour = Counter(Clock.HOURS)
+        self.minute = Counter(Clock.MINUTES)
+        self.second = Counter(Clock.SECONDS)
+
+        self.set(hour, minute, second)
+
+    def set(self, hour, minute, second):
+        """현재 시간을 파라미터 hour시, minute분, second초로 설정한다."""
+        self.hour.set(hour)
+        self.minute.set(minute)
+        self.second.set(second)
+
+    def tick(self):
+        """
+        초 카운터의 값을 1만큼 증가시킨다.
+        초 카운터를 증가시킴으로써, 분 또는 시가 바뀌어야하는 경우를 처리한다.
+        """
+        if self.second.tick():
+            if self.minute.tick():
+                self.hour.tick()
+
+    def __str__(self):
+        """
+        현재 시간을 시:분:초 형식으로 리턴한다. 시, 분, 초는 두 자리 형식이다.
+        예시: "03:11:02"
+        """
+        return "{}:{}:{}".format(self.hour, self.minute, self.second)
+'''
+
+
