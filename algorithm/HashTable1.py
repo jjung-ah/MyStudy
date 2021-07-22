@@ -31,3 +31,24 @@ class Hashtable:
         for letter in name:
             ord_sum += ord_sum * honer + ord(letter)
         return ord_sum % len(self.table)
+
+    
+##### 결과 확인 #####
+boo = Hashtable()
+boo.put('Kim', 7458)
+boo.put('John', 8569)
+boo.put('Smith', 1452)
+boo.put('Michael', 2563)
+boo.put('Raymond', 1598)
+boo.put('Clayton', 7432)
+boo.show()
+
+
+''' 결과
+42 1598
+54 2563
+81 1452
+87 7458
+100 7432
+108 8569
+'''
