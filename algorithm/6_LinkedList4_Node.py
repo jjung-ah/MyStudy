@@ -26,3 +26,13 @@ iterator = head_node
 while iterator is not None:
     print(iterator.data)
     iterator = iterator.next
+    
+    
+"""
+# 실행결과
+2
+3
+5
+7
+11
+"""
