@@ -1,3 +1,5 @@
+# 상호평가
+
 def solution(scores):
     answer = ''
     score = 0
