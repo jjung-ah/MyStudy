@@ -1,4 +1,4 @@
-# 상호평가
+# 상호평가_다시하기
 
 def solution(scores):
     answer = ''
