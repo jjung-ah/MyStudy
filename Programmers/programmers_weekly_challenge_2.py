@@ -25,10 +25,8 @@ def solution(scores):
             answer += 'B'
         elif score >= 70:
             answer += 'C'
-        elif score >= 60:
-            answer += 'D'
         elif score >= 50:
-            answer += 'E'
+            answer += 'D'
         else:
             answer += 'F'
 
