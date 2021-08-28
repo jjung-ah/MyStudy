@@ -2,13 +2,18 @@
 
 def solution(s):
     answer = ''
-    for i in range(len(s)):
-        #print(s[i])
-        if i % 2 != 0:
-            answer += s[i].lower()
-        else:
-            answer += s[i].upper()
-    return answer
+    s_list = s.split(' ')
+    #print(s_list)
+    for j in s_list:
+        #print(j)
+        for i in range(len(j)):
+            #print(s[i])
+            if i % 2 != 0:
+                answer += j[i].lower()
+            else:
+                answer += j[i].upper()
+        answer += ' '
+    return answer[:-1]
 
 
 
