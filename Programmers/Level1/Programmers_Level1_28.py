@@ -1,4 +1,4 @@
-# 정수 내림차순으로 배치하기
+# 정수 내림차순으로 배치하기  # 다시
 
 def solution(n):
     answer = ''
@@ -13,3 +13,24 @@ def solution(n):
         print('answer: ', answer)
             
     return answer
+
+
+
+# 실행결과
+# ('n: ', '11372')
+# ('n_max: ', '8')
+# ('answer: ', '8')
+# ('n: ', '1132')
+# ('n_max: ', '7')
+# ('answer: ', '87')
+# ('n: ', '112')
+# ('n_max: ', '3')
+# ('answer: ', '873')
+# ('n: ', '11')
+# ('n_max: ', '2')
+# ('answer: ', '8732')
+# ('n: ', '')
+# ('n_max: ', '1')
+# ('answer: ', '87321')
+
+# ValueError: max() arg is an empty sequence
