@@ -1,6 +1,7 @@
 # User 클래스 문서화하기  # 수정 필요
 
 class User:
+    """SNS의 유저를 나타내는 클래스"""
     count = 0
 
     def __init__(self, name, email, pw):
