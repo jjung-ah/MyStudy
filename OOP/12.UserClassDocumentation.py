@@ -21,4 +21,46 @@ class User:
     def number_of_users(cls):
         print("총 유저 수는: {}입니다".format(cls.count))
 
+        
+# 실행 결과
+
+
+
+
 help(User)
+
+'''
+Help on class User in module __main__:
+
+class User(builtins.object)
+ |  User(name, email, pw)
+ |  
+ |  Methods defined here:
+ |  
+ |  __init__(self, name, email, pw)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |  
+ |  __str__(self)
+ |      Return str(self).
+ |  
+ |  say_hello(self)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Class methods defined here:
+ |  
+ |  number_of_users() from builtins.type
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |  
+ |  count = 3
+ '''
