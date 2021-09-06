@@ -23,9 +23,9 @@ class User:
 
         
 # 실행 결과
-
-
-
+user1 = User('백', 'email1@email.com', '12345')
+user2 = User('김', 'email2@email.com', '123456')
+user3 = User('이', 'email3@email.com', '1234567')
 
 help(User)
 
