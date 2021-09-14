@@ -34,3 +34,19 @@ def solution(n):
 # ('answer: ', '87321')
 
 # ValueError: max() arg is an empty sequence
+
+
+# 결과 만족한 함수
+def solution(n):
+    answer = ''
+    str_n = str(n)
+    n_list = list(str_n)
+    n_list.sort()
+    for i in n_list[::-1]:
+        answer += i
+    
+    return int(answer)
+
+
+# 실행결과
+solution(118372)   # 873211
