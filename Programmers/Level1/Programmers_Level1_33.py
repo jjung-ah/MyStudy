@@ -1,4 +1,4 @@
-# 문자열 내 p와 y의 개수
+# 문자열 내 p와 y의 개수   # 다시 풀어야 함
 
 def solution(s):
     answer = True
