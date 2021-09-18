@@ -9,3 +9,8 @@ def solution(s):
             return True
         else:
             return False
+       
+    
+# 실행결과
+solution("pPoooyY")   # True
+solution("Pyy")   # False
