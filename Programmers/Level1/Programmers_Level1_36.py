@@ -3,7 +3,8 @@
 def solution(s):
     #answer = True
     return s.isdigit()
-
+    #return s.lstrip("-").isdigit()
+    #return s.isnumeric()
 
 
 # 실행 코드
