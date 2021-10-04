@@ -1,4 +1,4 @@
-# 체육복_다시 해보기  # 맞는데 런타임에러
+# 체육복_다시 해보기  # 맞는데 런타임에러   # 다시 하기
 def solution(n, lost, reserve):
     #answer = 0
     PE = [[i, 1] for i in range(1, n+1)]
