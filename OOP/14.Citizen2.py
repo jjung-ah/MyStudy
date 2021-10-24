@@ -27,6 +27,8 @@ class Citizen:
         self.__age = value
         
 
+        
+# 실행 코드
 young = Citizen("younghoon kang", 18, "12345678")
  
 print(young.get_age())   # 18
